@@ -4,7 +4,10 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World");
+            //=======(>>>>Q1<<<<) Write a program that receives two numbers and prints the larger one, but a multiple.
+            int x = int.Parse(Console.ReadLine());
+            int y = int.Parse(Console.ReadLine());
+            Console.WriteLine(Math.Max(x, y) * 2);
         }
     }
 }
